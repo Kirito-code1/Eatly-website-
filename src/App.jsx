@@ -7,5 +7,14 @@ function App() {
 		</>
 	)
 }
+import MainPage from './Main_page'
 
-export default App
+ function App(){
+
+    return(
+        
+            <MainPage/>
+    )}
+
+
+    export default App;
