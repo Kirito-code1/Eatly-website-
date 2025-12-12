@@ -1,20 +1,12 @@
 import { useState } from 'react'
 import AdvertPage from './advert_page'
+import MainPage from './Main_page'
 function App() {
   return (
 		<>
-			<AdvertPage/>
+			<MainPage />
+			<AdvertPage />
 		</>
 	)
 }
-import MainPage from './Main_page'
-
- function App(){
-
-    return(
-        
-            <MainPage/>
-    )}
-
-
-    export default App;
+export default App;
