@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './css/block/advert_page.css'
 import iphoneImg from './image/app/iPhone 13pm.svg'
 
 export default function AdvertPage() {
 	return (
-		<>
+		<div className='container'>
 			<section className='achievements'>
 				<div className='arc_right'></div>
+
 				<div className='achievements__item'>
 					<h2>10K+</h2>
 					<p>
@@ -56,6 +56,7 @@ export default function AdvertPage() {
 							Premium quality food is made with ingredients that are packed with
 							essential vitamins, minerals.
 						</li>
+
 						<li className='app__list-item'>
 							These foods promote overall wellness by supporting healthy
 							digestion and boosting immunity.
@@ -65,6 +66,6 @@ export default function AdvertPage() {
 					<button className='app__btn'>Download</button>
 				</div>
 			</section>
-		</>
+		</div>
 	)
 }
