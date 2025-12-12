@@ -1,5 +1,5 @@
 import React from "react";
-import './css/blocks/main_page.css';
+import '../css/blocks/main_page.css';
 
 export default function MainPage(){
 

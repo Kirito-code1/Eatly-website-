@@ -1,7 +1,7 @@
 import React from "react";
-import './css/blocks/rest_page.css'
+import '../css/blocks/rest_page.css'
 import RestaurantCard from "./RestaurantsCard";
-import './css/blocks/dishesPart.css'
+import '../css/blocks/dishesPart.css'
 import DishesCard from "./DishesCard";
 import NoteCard from "./NoteCard";
 

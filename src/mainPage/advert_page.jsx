@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './css/block/advert_page.css'
+import '../css/block/advert_page.css'
 
 export default function AdvertPage() {
  return (

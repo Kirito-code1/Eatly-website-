@@ -1,5 +1,5 @@
 import React from "react";
-import './css/blocks/notifications.css'
+import '../css/blocks/notifications.css'
 
 
 export default function NoteCard(){

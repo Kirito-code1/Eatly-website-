@@ -1,5 +1,5 @@
 import React from "react";
-import './css/blocks/restaurantsCard.css';
+import '../css/blocks/restaurantsCard.css';
 
 export default function RestaurantCard(){
 

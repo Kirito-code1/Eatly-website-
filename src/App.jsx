@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import MainPage from './Main_page';
-import AdvertPage from './advert_page';
-import RestPage from './Rest_page';
+import MainPage from './mainPage/Main_page';
+import AdvertPage from './mainPage/advert_page';
+import RestPage from './mainPage/Rest_page';
 export default function App() {
   return (
 		<>
