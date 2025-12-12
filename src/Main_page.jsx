@@ -7,7 +7,8 @@ export default function MainPage(){
         <>
         <div className="container">
             <section className="main-page">
-                <nav className="nav">
+                <div className="main-nav">
+                    <nav className="nav">
                     <div className="left-side-nav">
                         <div className="left-side-inner-nav">
                             <img src="./public/Logo (1).svg" alt="" />
@@ -24,6 +25,7 @@ export default function MainPage(){
                         <a href="#" className="signBtn">Sign Up</a>
                     </div>
                 </nav>
+                </div>
                 <section className="content-main">
                     <div className="left-side-content">
                         <p className="over-text">─────── OVER 1000 USERS</p>
