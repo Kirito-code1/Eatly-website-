@@ -14,3 +14,13 @@ function App() {
 
 
     export default App;
+import MainPage from './Main_page'
+function App() {
+  return (
+		<>
+			<MainPage />
+			<AdvertPage />
+		</>
+	)
+}
+export default App;
