@@ -1,0 +1,135 @@
+.header-text{
+    font-family: var(--font-poppins);
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: rgba(50, 49, 66, 1);
+    span{
+        color: rgba(108, 95, 188, 1);
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+.restaurantsPart{
+    margin-bottom: 100px;
+    padding-bottom: 13px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height:641px;
+    /* border: 1px solid red; */
+    /* border-top: 1px solid rgba(203, 203, 203, 1); */
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+}
+.viewBtn{
+    font-family: var(--font-poppins);
+    color: rgba(172, 173, 185, 1);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: auto;
+    padding-right: 20px;
+}
+.bottom-side-view{
+    margin-top: 60px;
+    text-align: right;
+}
+
+/*DashBoard*/
+.controlPartDashBoard{
+    width: 70%;
+    height: 601px;
+    /* border: 1px solid red; */
+    margin-bottom: 100px;
+    display: flex;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+}
+.dashboard{
+    padding: 20px 40px;
+    width: 534px;
+    height: 466px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 1px solid red; */
+    border: 1px solid rgba(237, 242, 247, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 4px 4px 37px 8px rgba(34, 60, 80, 0.2);
+}
+.text-purchases{
+    font-weight: 800;
+    font-family: var(--font-manrope);
+    color: rgba(26, 32, 44, 1);
+    font-size: 28px;
+}
+#select{
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(26, 32, 44, 1); 
+    width: 175px;
+    height: 53px;
+    outline: none;
+}
+.top-side-dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-expense{
+    width: 459px;
+    height: 106px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(237, 242, 247, 1);
+    padding:  0 25px;
+}
+.left-side-dash{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.bottom-side-dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-around; */
+    /* height: 100%; */
+}
+.nameCard{
+    font-weight: 800;
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    color: rgba(26, 32, 44, 1);
+}
+.costCard{
+    font-weight: 800;
+    font-family: var(--font-manrope);
+    color: rgba(26, 32, 44, 1);
+    font-size: 21px;
+}
+/*Note Card*/
+.notifications-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.left-side-notifications{
+    width: 50%;
+    .header-text{
+        text-align: left;
+    }
+}
+.right-side-dashboard{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}

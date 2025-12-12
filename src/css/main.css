@@ -11,4 +11,6 @@
 
 /*Blocks*/
 @import './blocks/main_page.css';
+@import './block/advert_page.css';
+@import './blocks/rest_page.css';
 
