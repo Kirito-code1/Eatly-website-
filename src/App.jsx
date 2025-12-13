@@ -9,7 +9,7 @@ export default function App() {
             <MainPage/>
 			<AdvertPage/>
 		<RestPage/>
-		<FooterPage/>
+		<MessagePart/>
 		</>
 	)
 }
