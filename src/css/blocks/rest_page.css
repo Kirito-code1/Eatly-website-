@@ -1,10 +1,11 @@
-.header-text{
+.header-text {
     font-family: var(--font-poppins);
     text-align: center;
     font-weight: 600;
     font-size: 45px;
     color: rgba(50, 49, 66, 1);
-    span{
+
+    span {
         color: rgba(108, 95, 188, 1);
     }
 }
@@ -13,7 +14,8 @@
     justify-content: center;
     gap: 30px;
 }
-.restaurantsPart{
+
+.restaurantsPart {
     margin-bottom: 100px;
     padding-bottom: 13px;
     width: 85%;
@@ -38,13 +40,14 @@
     /* margin-left: auto; */
     /* padding-right: 20px; */
 }
-.bottom-side-view{
+
+.bottom-side-view {
     margin-top: 60px;
     text-align: right;  
 }
 
 /*DashBoard*/
-.controlPartDashBoard{
+.controlPartDashBoard {
     width: 70%;
     height: 601px;
     /* border: 1px solid red; */
@@ -52,7 +55,8 @@
     display: flex;
     border-bottom: 1px solid rgba(203, 203, 203, 1);
 }
-.dashboard{
+
+.dashboard {
     padding: 20px 40px;
     width: 534px;
     height: 466px;
@@ -65,27 +69,31 @@
     justify-content: space-around;
     box-shadow: 4px 4px 37px 8px rgba(34, 60, 80, 0.2);
 }
-.text-purchases{
+
+.text-purchases {
     font-weight: 800;
     font-family: var(--font-manrope);
     color: rgba(26, 32, 44, 1);
     font-size: 28px;
 }
-#select{
+
+#select {
     font-family: var(--font-manrope);
     font-weight: 600;
     font-size: 18px;
-    color: rgba(26, 32, 44, 1); 
+    color: rgba(26, 32, 44, 1);
     width: 175px;
     height: 53px;
     outline: none;
 }
-.top-side-dashboard{
+
+.top-side-dashboard {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.card-expense{
+
+.card-expense {
     width: 459px;
     height: 106px;
     border-radius: 18px;
@@ -93,46 +101,54 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid rgba(237, 242, 247, 1);
-    padding:  0 25px;
+    padding: 0 25px;
 }
-.left-side-dash{
+
+.left-side-dash {
     display: flex;
     gap: 15px;
     align-items: center;
 }
-.bottom-side-dashboard{
+
+.bottom-side-dashboard {
     display: flex;
     flex-direction: column;
     gap: 20px;
     /* justify-content: space-around; */
     /* height: 100%; */
 }
-.nameCard{
+
+.nameCard {
     font-weight: 800;
     font-family: var(--font-manrope);
     font-size: 18px;
     color: rgba(26, 32, 44, 1);
 }
-.costCard{
+
+.costCard {
     font-weight: 800;
     font-family: var(--font-manrope);
     color: rgba(26, 32, 44, 1);
     font-size: 21px;
 }
+
 /*Note Card*/
-.notifications-cards{
+.notifications-cards {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 15px;
+    margin-top: 48px;
 }
-.left-side-notifications{
+
+.left-side-notifications {
     width: 50%;
-    .header-text{
+
+    .header-text {
         text-align: left;
     }
 }
-.right-side-dashboard{
+
+.right-side-dashboard {
     width: 50%;
     display: flex;
     justify-content: end;

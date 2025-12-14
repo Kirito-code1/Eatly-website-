@@ -2,7 +2,7 @@
   max-width: 1214px;
   max-height: 280px;
   margin: 80px auto;
-  padding: 40px 48px;
+  padding: 37px 66px;
 
   background: #6C5FBC;
   border-radius: 30px;
@@ -158,4 +158,58 @@
 .footer_logos img {
   width: 21.34px;
   height: 20.36px;
+}
+
+
+@media (max-width: 1024px) {
+
+  .promo {
+    padding: 26px 47px;
+    max-width: 100%;
+    margin-bottom: 153px;
+    width: 80%;
+  }
+
+  .promo__title {
+    font-size: 50px;
+  }
+
+  .promo__form {
+    width: 313px;
+  }
+
+  .promo__input {
+    padding: 15.5px;
+    font-size: 11.5px;
+  }
+
+  .promo__btn {
+    padding: 11px 18px;
+    font-size: 10.49px;
+  }
+
+  .promo__image img {
+    width: 195px;
+    height: auto;
+  }
+
+  .footer {
+    padding: 68px 64px 57px 73px;
+  }
+
+  .footer__nav {
+    gap: 50px;
+  }
+
+  .footer__nav a {
+    font-size: 12.68px;
+  }
+
+  .footer_license p {
+    font-size: 12.09px;
+  }
+
+  .footer_logos {
+    gap: 38px;
+  }
 }
