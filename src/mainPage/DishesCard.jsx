@@ -9,7 +9,6 @@ export default function DishesCard() {
         <div className="dishesCard">
                     <div className="top-side-card-dishes">
                         <img src="./public/Food Image.png" alt="" />
-                        <i className="fa-regular fa-heart"></i>
                     </div>
                     <div className="bottom-side-card-dishes">
                         <p className="yellowTextDishes">Healthy</p>
