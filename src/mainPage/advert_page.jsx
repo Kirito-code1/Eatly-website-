@@ -62,8 +62,8 @@ export default function AdvertPage() {
        digestion and boosting immunity.
       </li>
      </ul>
-
-     <button className='app__btn'>Download</button>
+        <img src="./public/Vector 14.svg" alt=""  className='vector14'/>
+     <button className='app__btn'>Download <img src="./public/arrow-right.svg" alt="" /></button>
     </div>
    </section>
   </div>
