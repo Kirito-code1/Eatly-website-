@@ -7,8 +7,8 @@ import FooterPage from './mainPage/Footer_page';
 export default function App() {
   return (
 		<>
-            <MainPage/>
-			<AdvertPage/>
+        <MainPage/>
+		<AdvertPage/>
 		<RestPage/>
 		<MessagePart/>
 		<FooterPage/>
