@@ -9,7 +9,17 @@
         color: rgba(108, 95, 188, 1);
     }
 }
-
+.dishesPart{
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    height: 645px;
+    width: 85%;
+    margin-bottom: 100px;
+}
+.DishesCards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .cards {
     display: flex;
     justify-content: center;
@@ -267,5 +277,87 @@
 
 .costCard {
     font-size: 16px;
+}
+}
+@media (max-width: 480px) {
+    .dishesPart{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        gap: 20px;
+    }
+    .restaurantsPart{
+        height: 100vh;
+    }
+    .DishesCards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .controlPartDashBoard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+        height: 90vh;
+    }
+    .dashboard{
+        width: 316px;
+        padding: 0;
+        height: 338px;
+    }
+    .right-side-dashboard{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+        /* padding: 0; */
+        /* padding: 10px; */
+    }
+    .header-text{
+        width: 300px;
+    }
+    .notifications-cards{
+        position: relative;
+    }
+    .arrow{
+        position: absolute  ;
+        bottom: -100px;
+        transform: rotate(-90deg);
+        right: -190px;
+    }
+    .text-purchases{
+        font-size: 16px;
+    }
+    #select{
+        width: 104px;
+        height: 31px;
+        font-size: 11px;
+    }
+.nameCard{
+    font-size: 11px;
+}
+.costCard{
+    font-size: 13px;
+}
+.left-side-dash img{
+    width: 30px;
+    height: 30px;
+}
+.card-expense{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.bottom-side-dashboard{
+    /* padding: 10px; */
+    margin: 0;
+    width: 100%;
 }
 }

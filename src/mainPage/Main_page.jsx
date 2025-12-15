@@ -19,7 +19,9 @@ export default function MainPage(){
                             <a href="#">Contact</a>
                         </div>
                     </div>
+                    <img src="./public/menu (1).svg" alt="" className="menuBtn"/>
                     <div className="right-side-nav">
+                        
                         <a href="#" className="logBtn">Login</a>
                         <a href="#" className="signBtn">Sign Up</a>
                     </div>
@@ -29,7 +31,7 @@ export default function MainPage(){
                     <div className="left-side-content">
                         <p className="over-text">─────── OVER 1000 USERS</p>
                         <p className="header-enjoy-text">
-                            Enjoy Foods All <br/> Over The <span>World</span>
+                            Enjoy Foods <span className="none">All</span> <br/> Over <span className="none">The</span> <span>World</span>
                         </p>
                         <p className="eatly-text">
                             EatLy help you set saving goals, earn cash back offers, Go to disclaimer for more details and get paychecks up to two days early. Get <span>a $20 bonus.</span>

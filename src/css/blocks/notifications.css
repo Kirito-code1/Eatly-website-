@@ -36,3 +36,18 @@
     right: 17px;
     bottom: 10px;
 }
+@media (max-width: 480px) {
+    .card-note {
+        width: 228px;
+        height: 58px;
+    }
+    .name-meal{
+        font-size: 12px;
+    }
+    .process-meal{
+        font-size: 7px;
+    }
+    .time-meal{
+        font-size: 8px;
+    }
+}

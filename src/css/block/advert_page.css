@@ -221,3 +221,30 @@
     right: 210px;
   }
 }
+@media (max-width: 480px) {
+  .achievements{
+    display: flex;
+    flex-direction: column;
+    height: 748px;
+  }
+  .app{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    gap: 10px;
+    height: 100vh;
+  }
+  .app__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .vector14{
+    transform: rotate(90deg);
+    right: 0;
+    left: 100px;
+    bottom: -100px;
+  }
+}

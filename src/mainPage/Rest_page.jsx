@@ -41,6 +41,7 @@ export default function RestPage(){
                 <NoteCard/>
                 <NoteCard/>
                 <NoteCard/>
+                <img src="./public/Vector 14.svg" alt="" className="arrow"/>
             </div>
             </div>
             <div className="right-side-dashboard">
