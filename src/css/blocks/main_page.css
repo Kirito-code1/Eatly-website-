@@ -1,13 +1,14 @@
-.container{
+    .container{
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(249, 249, 249, 1);
-    border: 2px solid red;
 }
-
+.img-main{
+    height: auto;
+}
 .main-nav{
     width: 100%;
     background-color: white;
@@ -18,7 +19,10 @@
     justify-content: center;
     top: 0;
 }
-
+.right-side-content img{
+  width: clamp(680px, 70%, 480px);
+  height: auto; /* чтобы сохранялись пропорции */
+}
 .nav{
     display: flex;
     border-bottom: 2px solid rgba(203, 203, 203, 1);
@@ -90,9 +94,10 @@
 
 .header-enjoy-text{
     font-weight: 600;
-    font-size: 75px;
+    font-size: clamp(53px, 5vw, 75px);
     font-family: var(--font-poppins);
     color: rgba(32, 31, 31, 1);
+    width: 600px;
 }
 
 .header-enjoy-text span {
@@ -101,7 +106,7 @@
 
 .eatly-text{
     font-weight: 400;
-    font-size: 18px;
+    /* font-size: clamp(18px, 9px); */
     font-family: var(--font-inter);
     color: rgba(103, 103, 103, 1);
     width: 499px;

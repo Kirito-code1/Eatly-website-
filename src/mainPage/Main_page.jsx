@@ -2,7 +2,6 @@ import React from "react";
 import '../css/blocks/main_page.css';
 
 export default function MainPage(){
-
     return(
         <>
         <div className="container">

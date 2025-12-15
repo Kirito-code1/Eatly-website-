@@ -7,7 +7,7 @@ export default function RestaurantCard(){
     return(
         <div className="card">
                     <div className="top-side-card">
-                        <img src="./public/img-chicken.jpg" alt="" />
+                        
                     </div>
                     <div className="bottom-side-card">
                         <p className="tip">

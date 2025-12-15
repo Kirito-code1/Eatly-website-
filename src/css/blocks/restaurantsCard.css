@@ -1,113 +1,86 @@
-.card{
-    width: 395px;
-    height: 305px;
+.card {
+    width: clamp(281px, 50%, 395px);
+    height: clamp(220px, 40vw, 305px);
     border-radius: 30px;
-    /* padding-bottom: 120px; */
     border: 1px solid rgba(244, 244, 246, 1);
-    /* box-shadow: 0px 0px 56px 14px rgba(229, 229, 229, 1); */
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     overflow: hidden;
     transition: transform .4s;
-    /* padding: 10px; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.1);
 }
-.top-side-card{
-    width: 395px;
-    height: 176px;
+
+.top-side-card {
+    width: 100%;
+    height: clamp(125px, 30vw, 176px);
     overflow: hidden;
-    img{
-        width: 395px;
-    height: 176px;
-    object-fit:cover;
-    /* transform: rotate(90deg); */
-    }
+    background: url('https://picsum.photos/395/176') no-repeat left center;
+    background-size: cover;
 }
-.tip{
-    /* margin: auto; */
+
+.bottom-side-card {
+    padding: 10px 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tip {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65px;
-    height: 24px;
+    width: clamp(46px, 5vw, 65px);
+    height: clamp(17px, 2vw, 24px);
     border-radius: 5px;
     background-color: rgba(247, 237, 208, 1);
     color: rgba(218, 163, 26, 1);
     font-weight: 400;
-    font-family: var(--font-poppins);
-    font-size: 12px;
+    font-size: clamp(9px, 1.5vw, 12px);
     margin-bottom: 5px;
     margin-top: 8px;
 }
-.bottom-side-card{
-    /* padding: 10px 30px; */
-    padding: 0 30px;
-    background-color: white;
-}
-.nameMeal{
+
+.nameMeal {
     color: rgba(50, 49, 66, 1);
-    font-family: var(--font-poppins);
     font-weight: 600;
-    font-size: 25px;
+    font-family: var(--font-poppins);
+    font-size: clamp(18px, 2.5vw, 25px);
+    margin: 5px 0;
 }
-.timeText{
+
+.timeText {
     color: rgba(142, 151, 166, 1);
     font-weight: 400;
-    font-size: 19px;
     font-family: var(--font-manrope);
+    font-size: clamp(13px, 1.5vw, 19px);
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.addFav{
+
+.addFav {
     border: none;
-    width: 40px;
-    height: 40px;
+    width: clamp(28px, 3vw, 40px);
+    height: clamp(28px, 3vw, 40px);
     background-color: rgba(219, 217, 238, 1);
     border-radius: 50%;
-}
-.inner-bottom-side-card{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@media (max-width: 1024px) {
-    .card{
-        width: 281px;
-        height: 220px;
-        border-radius: 21px;
-    }
-    .top-side-card{
-    width: 281px;
-    height: 125px;
-    overflow: hidden;
-    img{
-        width: 281;
-    height: 125px;
-    object-fit:cover;
-    /* transform: rotate(90deg); */
-    }
-}
-.tip{
-    width: 46px;
-    height: 17px;
-    font-size: 9px;
-}
-.nameMeal{
-    font-size: 18px;
-}
-.timeText{
-    font-size: 13px;
-}
-.addFav{
-    width: 28px;
-    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.addFav img{
-    width: 10px;
+
+.addFav img {
+    width: clamp(10px, 1.5vw, 10px);
 }
+
+.inner-bottom-side-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
