@@ -1,7 +1,7 @@
 .promo {
   max-width: 1214px;
   max-height: 280px;
-  margin: 182px auto;
+  margin: 80px auto;
   padding: 37px 66px;
 
   background: #6C5FBC;
@@ -30,7 +30,7 @@
 
 .promo__content {
   position: relative;
-  z-index: 2;
+  z-index: 2; 
 }
 
 .promo__title {
@@ -160,18 +160,12 @@
   height: 20.36px;
 }
 
-.footer_logos--mobile {
-  display: none;
-}
-
-
 
 @media (max-width: 1024px) {
 
   .promo {
     padding: 26px 47px;
     max-width: 100%;
-    margin: 130px auto;
     margin-bottom: 153px;
     width: 80%;
   }
@@ -217,152 +211,5 @@
 
   .footer_logos {
     gap: 38px;
-  }
-}
-
-
-@media (max-width: 480px) {
-
-  /* ===== PROMO ===== */
-
-  .promo {
-    width: 90%;
-    padding: 35px 27px 95px;
-    margin: 80px auto 95px;
-    border-radius: 15px;
-    position: relative;
-    justify-content: center;
-  }
-
-  .promo__title {
-    font-size: 41.45px;
-    line-height: 62px;
-    text-align: center;
-    margin-bottom: 16px;
-  }
-
-  /* форма — в одну строку */
-  .promo__form {
-    width: 100%;
-    max-width: 260.29px;
-    padding: 6px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    border-radius: 9.26px;
-    margin: 0 auto;
-  }
-
-  .promo__input {
-    padding: 15px;
-    font-size: 10.58px;
-  }
-
-  .promo__btn {
-    padding: 7px;
-    font-size: 9.59px;
-
-    /* 🔑 кнопка не ломается */
-  }
-
-  /* картинка еды */
-  .promo__image {
-    position: absolute;
-    left: 50%;
-    bottom: -100px;
-    top: auto;
-    transform: translateX(-50%);
-  }
-
-  .promo__image img {
-    width: 200px;
-    height: auto;
-  }
-
-
-  .promo__image img {
-    width: 170px;
-    height: auto;
-  }
-
-  .promo::before {
-    display: none;
-  }
-
-  .promo__content {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  /* ===== FOOTER ===== */
-
-  .footer {
-    padding: 55px 30px 36px;
-  }
-
-  /* верхний блок */
-  .footer__top {
-    flex-wrap: wrap;
-    row-gap: 55px;
-  }
-
-  /* логотип + иконки в одну строку */
-  .footer__company {
-    order: 1;
-  }
-
-  .footer_logos {
-    order: 2;
-    margin-left: auto;
-    /* 🔑 толкаем вправо */
-    display: flex;
-    gap: 20px;
-
-  }
-
-  /* навигация ниже */
-  .footer__nav {
-    padding-left: 3px;
-    flex-direction: column;
-    order: 3;
-    width: 100%;
-    justify-content: center;
-    gap: 26px;
-  }
-
-
-  .footer__nav a {
-    color: rgba(112, 121, 139, 1);
-    text-transform: uppercase;
-  }
-
-  /* нижний блок */
-  .footer__down {
-    justify-content: center;
-    margin-top: 40px;
-  }
-
-  .footer__down .footer_logos {
-    display: none;
-  }
-
-  .footer_license p {
-    font-size: 13.5px;
-    text-align: center;
-  }
-
-  .footer_logos--desktop {
-    display: none;
-  }
-
-  .footer_logos--mobile {
-    display: flex;
-    gap: 20px;
-  }
-
-  .footer__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 }
