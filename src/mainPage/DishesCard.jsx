@@ -6,7 +6,7 @@ export default function DishesCard() {
 
 
     return (
-        <div className="dishesCard">
+        <div className="dishesCard" data-aos = 'fade-bottom'>
                     <div className="top-side-card-dishes">
                         <img src="./public/Food Image.png" alt="" />
                     </div>
