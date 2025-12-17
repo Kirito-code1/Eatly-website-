@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import '../css/block/advert_page.css'
 
 export default function AdvertPage() {
@@ -7,7 +7,8 @@ export default function AdvertPage() {
    <section className='achievements'>
     <div className='arc_right'></div>
 
-    <div className='achievements__item'>
+    <div data-aos = 'fade-up'>
+      <div className='achievements__item'>
      <h2>10K+</h2>
      <p>
       Satisfied Customers
@@ -15,10 +16,12 @@ export default function AdvertPage() {
       All Great Over The World
      </p>
     </div>
+    </div>
 
     <div className='line'></div>
 
-    <div className='achievements__item'>
+    <div data-aos = 'fade-up'>
+      <div className='achievements__item'>
      <h2>4M</h2>
      <p>
       Healthy Dishes Sold
@@ -26,10 +29,12 @@ export default function AdvertPage() {
       Including Milk Shakes Smooth
      </p>
     </div>
+    </div>
 
     <div className='line'></div>
 
-    <div className='achievements__item'>
+    <div data-aos = 'fade-up'>
+      <div className='achievements__item'>
      <h2>99.99%</h2>
      <p>
       Reliable Customer Support
@@ -37,14 +42,18 @@ export default function AdvertPage() {
       We Provide Great Experiences
      </p>
     </div>
+    </div>
    </section>
 
    <section className='app'>
-    <div className='app__image'>
+    <div data-aos = 'fade-right'>
+      <div className='app__image'>
      <img src="/public/Mobile Screen.svg" alt="phone" />
     </div>
+    </div>
 
-    <div className='app__content'>
+    <div data-aos = 'fade-left'>
+      <div className='app__content'>
      <h2 className='app__title'>
       Premium <span>Quality</span>
       <br />
@@ -64,6 +73,7 @@ export default function AdvertPage() {
      </ul>
         <img src="./public/Vector 14.svg" alt=""  className='vector14'/>
      <button className='app__btn'>Download <img src="./public/arrow-right.svg" alt="" /></button>
+    </div>
     </div>
    </section>
   </div>

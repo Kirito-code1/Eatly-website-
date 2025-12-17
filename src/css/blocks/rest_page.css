@@ -11,35 +11,36 @@
 }
 .dishesPart{
     border-bottom: 1px solid rgba(203, 203, 203, 1);
-    height: 645px;
+    height: auto;
     width: 85%;
-    margin-bottom: 100px;
+    padding: 100px 0;
 }
 .DishesCards{
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .cards {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .restaurantsPart {
-    margin-bottom: 100px;
-    padding-bottom: 13px;
     width: 85%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     /* align-items: center; */
-    height: 641px;
+    height: auto;
+    padding: 100px 0;
     /* border: 1px solid red; */
     /* border-top: 1px solid rgba(203, 203, 203, 1); */
     border-bottom: 1px solid rgba(203, 203, 203, 1);
 }
-
 .viewBtn {
     /* width: 915px; */
     font-family: var(--font-poppins);
@@ -61,11 +62,14 @@
 /*DashBoard*/
 .controlPartDashBoard {
     width: 70%;
-    height: 601px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* border: 1px solid red; */
     margin-bottom: 100px;
     display: flex;
     border-bottom: 1px solid rgba(203, 203, 203, 1);
+    flex-direction: column;
 }
 
 .dashboard {
@@ -122,6 +126,10 @@
     gap: 15px;
     align-items: center;
 }
+.one-block-dashboard{
+    display: flex;
+    margin-top: 40px;
+}
 
 .bottom-side-dashboard {
     display: flex;
@@ -154,7 +162,7 @@
 }
 
 .left-side-notifications {
-    width: 50%;
+    width:50%;
 
     .header-text {
         text-align: left;
@@ -207,7 +215,7 @@
 .restaurantsPart {
     justify-content: center;
     gap: 50px;
-    height: 500px;
+    height: auto;
 }
 
 .controlPartDashBoard {
@@ -215,6 +223,8 @@
     height: auto;
     padding: 0 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 40px;
 }
 
@@ -248,8 +258,7 @@
 
 .dashboard {
     width: 100%;
-    max-width: 420px;
-        /* ⬅ dashboard ДЫШИТ */
+    width: 420px;
     padding: 28px 30px;
     height: auto;
 }
@@ -284,6 +293,8 @@
         height: auto;
         padding-bottom: 20px;
     }
+    .header-text{        
+    }
     .cards{
         display: flex;
         flex-direction: column;
@@ -292,7 +303,8 @@
         gap: 20px;
     }
     .restaurantsPart{
-        height: 100vh;
+        height: auto;
+        padding-bottom: 50px;
     }
     .DishesCards{
         display: grid;
@@ -302,9 +314,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         border-bottom: 1px solid gray;
         padding-bottom: 30px;
-        height: 90vh;
+        height: auto;
     }
     .dashboard{
         width: 316px;
@@ -318,9 +331,6 @@
         /* border: 1px solid red; */
         /* padding: 0; */
         /* padding: 10px; */
-    }
-    .header-text{
-        width: 300px;
     }
     .notifications-cards{
         position: relative;
@@ -360,4 +370,22 @@
     margin: 0;
     width: 100%;
 }
+}
+@media (max-width: 800px){
+    .one-block-dashboard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+    .left-side-notifications{
+        display: flex;
+        justify-content: center;
+    }
+    .right-side-dashboard{
+        display: flex;
+        justify-content: center;
+    }
 }

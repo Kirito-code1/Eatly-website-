@@ -366,3 +366,8 @@
     align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .promo__image{
+    display: none;
+  }
+}

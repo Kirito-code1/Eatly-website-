@@ -5,7 +5,7 @@ export default function FooterPage() {
 	return (
 		<>
 			<div className='container'>
-				<section className='promo'>
+				<section className='promo' data-aos = 'fade-up'>
 					<div className='promo__content'>
 						<h2 className='promo__title'>GET 50%</h2>
 

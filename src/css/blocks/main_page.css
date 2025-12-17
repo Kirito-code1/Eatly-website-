@@ -20,7 +20,7 @@
     top: 0;
 }
 .right-side-content img{
-  width: clamp(680px, 70%, 480px);
+  width: 500px;
   height: auto; /* чтобы сохранялись пропорции */
 }
 .nav{
@@ -83,6 +83,7 @@
     width: 85%;
     align-items: center;
     justify-content: space-between;
+    height: auto;
 }
 
 .over-text{
@@ -145,6 +146,8 @@
     align-items: center;
     gap: 20px;
     margin-top: 20px;
+    width: 300px;
+    justify-content: center;
 }
 
 .rate-main p{
@@ -174,13 +177,42 @@
 
 .buttons-main{
     margin-top: 20px;
+    width: 300px;
 }
 .menuBtn{
     display: none;
 }
+@media (max-width: 715px) {
+    .right-side-inner-nav{
+        display: none;
+    }
+}
+@media (max-width:955px) {
+    .content-main {
+        flex-direction: column;
+    }
+    .left-side-content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width:1300px){
+    .right-side-content{
+        img{
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .eatly-text{
+        font-size: 13px;
+        width: 350px;
+    }
+    
+}
 @media (max-width: 1024px) {
     .main-page{
-        height: 50vh;
+        height: auto;
     }
     .container{
         overflow: hidden;
@@ -258,6 +290,9 @@
     .menuBtn{
         display: block;
     }
+    .buttons-main{
+        justify-content: center;
+    }
     .over-text{
         font-size: 9px;
     }
@@ -265,10 +300,10 @@
         font-size: 46px;
         width: 300px;
         text-align: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .main-page{
-        height: 100vh;
+        height: auto;
         width: 100%;
     }
     .none{

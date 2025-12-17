@@ -28,7 +28,8 @@ export default function MainPage(){
                 </nav>
                 </div>
                 <section className="content-main">
-                    <div className="left-side-content">
+                    <div data-aos = 'fade-right'>
+                        <div className="left-side-content">
                         <p className="over-text">─────── OVER 1000 USERS</p>
                         <p className="header-enjoy-text">
                             Enjoy Foods <span className="none">All</span> <br/> Over <span className="none">The</span> <span>World</span>
@@ -52,8 +53,11 @@ export default function MainPage(){
                             <p>4900+</p>
                         </div>
                     </div>
+                    </div>
+                    <div data-aos = 'fade-left'>
                     <div className="right-side-content">
                         <img src="./public/Hero.svg" alt="" />
+                    </div>
                     </div>
                 </section>
             </section>

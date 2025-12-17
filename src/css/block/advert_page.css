@@ -87,13 +87,10 @@
 
 .app {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   width: 100%;
   height: 745px;
-  justify-content: center;
-  gap: 200px;
-  /* gap: 120px; */
+  justify-content: space-around;
 }
 
 .app__image img {
@@ -180,6 +177,24 @@
   width: 27px;
   height: 27px;
 }
+@media (max-width: 700px) {
+  .app{
+    flex-direction: column-reverse;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+  }
+  .vector14{
+    display: none;  
+  }
+  .app__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
 @media (max-width: 1024px) {
   .achievements__item h2{
     font-size: 30px;
@@ -212,13 +227,31 @@
     height: 19px;
   }
   .app{
-    height: 545px;
+    height: auto;
   }
   .vector14{
     width: 80px;
     height: 109px;
     bottom: -68px;
     right: 210px;
+  }
+}
+@media (max-width: 700px) {
+  .app{
+    flex-direction: column-reverse;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+  }
+  .vector14{
+    display: none;  
+  }
+  .app__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
@@ -232,7 +265,7 @@
     flex-direction: column-reverse;
     justify-content: space-around;
     gap: 10px;
-    height: 100vh;
+    height: auto;
   }
   .app__content{
     display: flex;

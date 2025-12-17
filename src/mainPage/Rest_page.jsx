@@ -1,7 +1,7 @@
 import React from "react";
-import '../css/blocks/rest_page.css'
+import '../css/blocks/rest_page.css';
 import RestaurantCard from "./RestaurantsCard";
-import '../css/blocks/dishesPart.css'
+import '../css/blocks/dishesPart.css';
 import DishesCard from "./DishesCard";
 import NoteCard from "./NoteCard";
 
@@ -9,12 +9,11 @@ import NoteCard from "./NoteCard";
 export default function RestPage(){
 
 
-
     return (
         <div className="container">
             <div className="restaurantsPart">
             <h1 className="header-text">Our Top <span>Restaurants</span></h1>
-            <div className="cards">
+            <div className="cards " >
                 <RestaurantCard/>
                 <RestaurantCard/>
                 <RestaurantCard/>
@@ -29,23 +28,26 @@ export default function RestPage(){
                 <DishesCard/>
                 <DishesCard/>
                 <DishesCard/>
+                <DishesCard/>
+                <DishesCard/>
             </div>
             <div className="bottom-side-view">
                 <p className="viewBtn">View All →</p>
             </div>
         </div>
         <div className="controlPartDashBoard">
-            <div className="left-side-notifications">
             <h1 className="header-text">Control  <span>Purchases</span> Via Dashboard</h1>
-            <div className="notifications-cards">
+            <div className="one-block-dashboard">
+                <div className="left-side-notifications">
+            <div className="notifications-cards" data-aos = 'fade-right'>
                 <NoteCard/>
                 <NoteCard/>
                 <NoteCard/>
-                <img src="./public/Vector 14.svg" alt="" className="arrow"/>
+                {/* <img src="./public/Vector 14.svg" alt="" className="arrow"/> */}
             </div>
             </div>
             <div className="right-side-dashboard">
-                <div className="dashboard">
+                <div className="dashboard" data-aos = 'fade-left'>
                     <div className="top-side-dashboard">
                         <p className="text-purchases">Purchases</p>
                         <select name="" id="select">
@@ -71,6 +73,7 @@ export default function RestPage(){
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         </div>
