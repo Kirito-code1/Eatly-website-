@@ -182,6 +182,30 @@
 .menuBtn{
     display: none;
 }
+@media (max-width: 768px) {
+  .right-side-inner-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    align-items: center;
+    
+  }
+  .right-side-inner-nav{
+    transition: color .3s;
+  }
+  .right-side-inner-nav a:hover{
+    color: rgba(108, 95, 188, 1);
+  }
+
+  .right-side-inner-nav.active {
+    display: flex;
+  }
+}
 @media (max-width: 715px) {
     .right-side-inner-nav{
         display: none;

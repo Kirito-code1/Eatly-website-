@@ -1,7 +1,8 @@
-import React from "react";
+import {React, useState} from "react";
 import '../css/blocks/main_page.css';
 
 export default function MainPage(){
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return(
         <>
         <div className="container">
@@ -12,14 +13,16 @@ export default function MainPage(){
                         <div className="left-side-inner-nav">
                             <img src="./public/Logo (1).svg" alt="" />
                         </div>
-                        <div className="right-side-inner-nav">
+                        <div className= {`right-side-inner-nav ${isMenuOpen ? "active" : ""}`}>
                             <a href="#">Menu</a>
                             <a href="#">Blog</a>
                             <a href="#">Pricing</a>
                             <a href="#">Contact</a>
                         </div>
                     </div>
-                    <img src="./public/menu (1).svg" alt="" className="menuBtn"/>
+                    <img src="./public/menu (1).svg" alt="" className="menuBtn"
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    />
                     <div className="right-side-nav">
                         
                         <a href="#" className="logBtn">Login</a>
@@ -28,8 +31,7 @@ export default function MainPage(){
                 </nav>
                 </div>
                 <section className="content-main">
-                    <div data-aos = 'fade-right'>
-                        <div className="left-side-content">
+                    <div className="left-side-content" data-aos = 'fade-right'>
                         <p className="over-text">─────── OVER 1000 USERS</p>
                         <p className="header-enjoy-text">
                             Enjoy Foods <span className="none">All</span> <br/> Over <span className="none">The</span> <span>World</span>
@@ -53,11 +55,8 @@ export default function MainPage(){
                             <p>4900+</p>
                         </div>
                     </div>
-                    </div>
-                    <div data-aos = 'fade-left'>
-                    <div className="right-side-content">
+                    <div className="right-side-content" data-aos = 'fade-left'>
                         <img src="./public/Hero.svg" alt="" />
-                    </div>
                     </div>
                 </section>
             </section>
