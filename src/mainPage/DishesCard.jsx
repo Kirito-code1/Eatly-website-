@@ -15,7 +15,7 @@ export default function DishesCard() {
                         <p className="nameDishes">Chicken Hell</p>
                         <p className="timeTextDishes">24 min • <img src="./public/Icon.svg" alt="" /> <span>4.8</span></p>
                         <div className="inner-bottom-side-dishes">
-                            <p className="costDishes">$12 <span>.99</span></p>
+                            <p className="costDishes">$ 12.<span>99</span></p>
                             <button className="addBtn">+</button>
                         </div>
                     </div>

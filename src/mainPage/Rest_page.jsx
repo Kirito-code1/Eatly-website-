@@ -7,7 +7,9 @@ import NoteCard from "./NoteCard";
 
 
 export default function RestPage(){
-
+        const dishesData = [
+            {yellowTextDishes: 'Trending', nameDishes: 'Swe Dish', timeTextDishes: 12, costDishes: 999.999}
+        ]
 
     return (
         <div className="container">
@@ -23,7 +25,7 @@ export default function RestPage(){
         <div className="dishesPart">
             <h1 className="header-text">Our Top <span>Dishes</span></h1>
             <div className="DishesCards">
-                <DishesCard/>
+                <DishesCard />
                 <DishesCard/>
                 <DishesCard/>
                 <DishesCard/>

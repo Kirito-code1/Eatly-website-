@@ -6,6 +6,9 @@ export default function MainPage(){
     return(
         <>
         <div className="container">
+            <a href="#" className="circle-a">
+                
+            </a>
             <section className="main-page">
                 <div className="main-nav">
                     <nav className="nav">
