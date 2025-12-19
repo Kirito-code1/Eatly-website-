@@ -1,14 +1,15 @@
 import {React, useState} from "react";
 import '../css/blocks/main_page.css';
+import { Link } from "react-router-dom";
 
 export default function MainPage(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return(
         <>
         <div className="container">
-            <a href="#" className="circle-a">
+            {/* <a href="#" className="circle-a">
                 
-            </a>
+            </a> */}
             <section className="main-page">
                 <div className="main-nav">
                     <nav className="nav">
@@ -17,10 +18,10 @@ export default function MainPage(){
                             <img src="./public/Logo (1).svg" alt="" />
                         </div>
                         <div className= {`right-side-inner-nav ${isMenuOpen ? "active" : ""}`}>
-                            <a href="#">Menu</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Pricing</a>
-                            <a href="#">Contact</a>
+                            <Link to = {'/menu'}>Menu</Link>
+                            <a>Blog</a>
+                            <a>Pricing</a>
+                            <a>Contact</a>
                         </div>
                     </div>
                     <img src="./public/menu (1).svg" alt="" className="menuBtn"
