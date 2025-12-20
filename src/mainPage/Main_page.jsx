@@ -1,9 +1,9 @@
 import {React, useState} from "react";
 import '../css/blocks/main_page.css';
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function MainPage(){
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return(
         <>
         <div className="container">
@@ -11,29 +11,7 @@ export default function MainPage(){
                 
             </a> */}
             <section className="main-page">
-                <div className="main-nav">
-                    <nav className="nav">
-                    <div className="left-side-nav">
-                        <div className="left-side-inner-nav">
-                            <img src="./public/Logo (1).svg" alt="" />
-                        </div>
-                        <div className= {`right-side-inner-nav ${isMenuOpen ? "active" : ""}`}>
-                            <Link to = {'/menu'}>Menu</Link>
-                            <a>Blog</a>
-                            <a>Pricing</a>
-                            <a>Contact</a>
-                        </div>
-                    </div>
-                    <img src="./public/menu (1).svg" alt="" className="menuBtn"
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    />
-                    <div className="right-side-nav">
-                        
-                        <a href="#" className="logBtn">Login</a>
-                        <a href="#" className="signBtn">Sign Up</a>
-                    </div>
-                </nav>
-                </div>
+                <Navbar/>
                 <section className="content-main">
                     <div className="left-side-content" data-aos = 'fade-right'>
                         <p className="over-text">─────── OVER 1000 USERS</p>

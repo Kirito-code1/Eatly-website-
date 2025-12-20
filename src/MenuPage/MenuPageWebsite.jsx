@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
+import Footer from "../mainPage/individualFooter";
+import MenuPageTopSide from "./MenuPageTopSide";
+import '../css/blocks/main_page.css'
 
 export default function MenuPageWebsite(){
     return(
         <>
-        <Link to={'/'}>Main</Link>
-        <h1>
-            Hello World
-        </h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore laborum doloribus voluptas eos dicta! Nemo, voluptatem culpa voluptatibus, vitae molestiae itaque eaque error minus accusamus blanditiis distinctio incidunt quibusdam.</p>
+        <MenuPageTopSide/>
         </>
     )
 }

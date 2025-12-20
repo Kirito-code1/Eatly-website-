@@ -5,7 +5,7 @@ export default function RestaurantCard(){
 
 
     return(
-        <div className="card" data-aos = 'fade-up'>
+        <div className="card" >
                     <div className="top-side-card">
                         
                     </div>
