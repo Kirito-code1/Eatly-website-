@@ -6,17 +6,17 @@ import MainPageWebsite from './mainPage/MainPageWebsite';
 import MenuPageWebsite from './MenuPage/MenuPageWebsite';
 import NotFoundPage from './NotFoundPage';
 export default function App() {
-	const AppRoutes = {
-		HOME : '/',
-		MENU : '/menu',
-		NOT_FOUND : '*'
-	}
-	    useEffect(() => {
+	useEffect(() => {
         AOS.init({
             duration: 1000,
             once: true,
         });
     }, []);
+	const AppRoutes = {
+		HOME : '/',
+		MENU : '/menu',
+		NOT_FOUND : '*'
+	}
   return (
 		<>
 		<Routes>
