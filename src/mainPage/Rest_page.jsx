@@ -30,8 +30,6 @@ export default function RestPage(){
                 <DishesCard/>
                 <DishesCard/>
                 <DishesCard/>
-                <DishesCard/>
-                <DishesCard/>
             </div>
             <div className="bottom-side-view">
                 <p className="viewBtn">View All →</p>
