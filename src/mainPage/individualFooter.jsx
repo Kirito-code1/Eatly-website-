@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Footer(){
     return(
-        <section className='footer'>
+        <div className="footer-wrapper">
+			<section className='footer'>
 					<div className='footer__top'>
 						<div className='footer__company'>
 							<img src='./public/Logo (1).svg' alt='company' />
@@ -38,5 +39,6 @@ export default function Footer(){
 						</div>
 					</div>
 				</section>
+		</div>
     )
 }

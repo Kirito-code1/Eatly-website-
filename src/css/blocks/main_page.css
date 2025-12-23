@@ -32,7 +32,7 @@
         display: flex;
         border-bottom: 2px solid rgba(203, 203, 203, 1);
         height: 100px;
-        width: 85%;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
     }
@@ -44,7 +44,7 @@
     }
 
     .main-page {
-        width: 100%;
+        width: 90%;
         height: 90vh;
         display: flex;
         justify-content: center;
@@ -190,7 +190,6 @@
     .menuBtn {
         display: none;
     }
-
     @media (max-width: 768px) {
         .right-side-inner-nav {
             display: none;
@@ -409,19 +408,8 @@
     }
 
     .nav-wrapper {
-        width: 100%;
-        max-width: 1440px;
-        /* или 85%, если хочешь */
+        width: 85%;
         display: flex;
         justify-content: center;
         position: relative;
-    }
-
-    .nav {
-        width: 85%;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 2px solid rgba(203, 203, 203, 1);
     }

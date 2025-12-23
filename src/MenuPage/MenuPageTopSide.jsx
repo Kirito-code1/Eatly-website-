@@ -3,8 +3,6 @@ import '../css/blocks/topSideSite.css'
 import FoodCategory from "./FoodCategory"
 import React from "react"
 import RestaurantCard from "../mainPage/RestaurantsCard"
-import '../css/blocks/rest_page.css'
-import '../css/blocks/restaurantsCard.css'
 export default function MenuPageTopSide(){
     return(
         <div className="container">
