@@ -97,7 +97,7 @@
 }
 
 .active {
-    background-color: rgba(108, 95, 188, 1);
+    /* background-color: rgba(108, 95, 188, 1); */
     color: white;
 }
 
