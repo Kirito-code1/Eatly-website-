@@ -16,6 +16,7 @@ export default function App() {
     }, []);
 	const AppRoutes = {
 		HOME : '/',
+		BLOG : '/blog',
 		MENU : '/menu',
 		PRICING : '/pricing',
 		BLOG: '/blog',
@@ -25,6 +26,7 @@ export default function App() {
 		<>
 			<Routes>
 				<Route path={AppRoutes.HOME} element={<MainPageWebsite />} />
+				<Route path={AppRoutes.BLOG} element = {<ArticlesPage/>}/>
 				<Route path={AppRoutes.MENU} element={<MenuPageWebsite />} />
 				<Route path={AppRoutes.PRICING} element={<PricingPageWebsite />} />
 				<Route path={AppRoutes.BLOG} element={<BlogPageWebsite />} />

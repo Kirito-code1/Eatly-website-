@@ -19,7 +19,7 @@ export default function Navbar() {
 							className={`right-side-inner-nav ${isMenuOpen ? 'active' : ''}`}
 						>
 							<Link to='/menu'>Menu</Link>
-							<a>Blog</a>
+							<Link to = '/blog'>Blog</Link>
 							<Link to='/pricing'>Pricing</Link>
 							<a>Contact</a>
 						</div>
