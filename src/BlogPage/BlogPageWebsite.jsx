@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 import Footer from '../mainPage/individualFooter'
-import AllBlog from './AllBlog'
+import Blog from './Blog'
 import Navbar from '../mainPage/Navbar';
 export default function BlogPageWebsite() {
   return (
         <>
             <div className='container'>
                 <Navbar />
-                <AllBlog />
+                <Blog />
                 <Footer />
             </div>
         </>
