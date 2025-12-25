@@ -4,6 +4,7 @@ import '../css/blocks/articles-section.css';
 import Article from "./Article";
 import Questions from "../MenuPage/Questions";
 import Footer from "../mainPage/individualFooter";
+import { Link } from "react-router-dom";
 export default function ArticlesPage() {
     return(
         <div className="container">
@@ -14,7 +15,9 @@ export default function ArticlesPage() {
 						Latest <span>Articles</span>
 					</h1>
                     <div className="cards-articles">
+                        <Link to = '/article'>
                         <Article/>
+                        </Link>
                         <Article/>
                         <Article/>
                         <Article/>

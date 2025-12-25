@@ -6,7 +6,8 @@ import MainPageWebsite from './mainPage/MainPageWebsite';
 import MenuPageWebsite from './MenuPage/MenuPageWebsite';
 import NotFoundPage from './NotFoundPage';
 import PricingPageWebsite from './PricingPage/PricingPageWebsite';
-import BlogPageWebsite from './BlogPage/BlogPageWebsite'
+import BlogPageWebsite from './BlogPage/BlogPageWebsite';
+import ArticlesPage from './ArticlesPage/Articles';
 export default function App() {
 	useEffect(() => {
         AOS.init({
@@ -20,6 +21,8 @@ export default function App() {
 		MENU : '/menu',
 		PRICING : '/pricing',
 		BLOG: '/blog',
+		ARTICLES: '/articles',
+		ARTICLE: '/article',
 		NOT_FOUND : '*'
 	}
   return (
@@ -30,6 +33,8 @@ export default function App() {
 				<Route path={AppRoutes.MENU} element={<MenuPageWebsite />} />
 				<Route path={AppRoutes.PRICING} element={<PricingPageWebsite />} />
 				<Route path={AppRoutes.BLOG} element={<BlogPageWebsite />} />
+				<Route path={AppRoutes.ARTICLES} element = {<ArticlesPage/>} />
+				<Route path={AppRoutes.ARTICLE} element = {<BlogPageWebsite/>}/>
 				<Route path={AppRoutes.NOT_FOUND} element={<NotFoundPage />} />
 			</Routes>
 		</>
