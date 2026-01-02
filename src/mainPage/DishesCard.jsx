@@ -25,7 +25,7 @@ export default function DishesCard({ dish }) {
                 <div className="inner-bottom-side-dishes">
                     <p className="costDishes">
                         $ {dish.price}
-                        <span>.{priceDecimal}</span>
+                        <span> .{priceDecimal}</span>
                     </p>
 
                     <button className="addBtn">+</button>
