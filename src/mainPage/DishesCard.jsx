@@ -1,24 +1,37 @@
 import React from "react";
 import '../css/blocks/dishesCard.css';
 
-
-export default function DishesCard() {
-
+export default function DishesCard({ dish }) {
+    // корректный вывод цены
+    const priceInteger = Math.floor(dish.price);
+    const priceDecimal = dish.price
+        .toFixed(2)
+        .split('.')[1];
 
     return (
         <div className="dishesCard">
-                    <div className="top-side-card-dishes">
-                        <img src="./public/Food Image.png" alt="" />
-                    </div>
-                    <div className="bottom-side-card-dishes">
-                        <p className="yellowTextDishes">Healthy</p>
-                        <p className="nameDishes">Chicken Hell</p>
-                        <p className="timeTextDishes">24 min • <img src="./public/Icon.svg" alt="" /> <span>4.8</span></p>
-                        <div className="inner-bottom-side-dishes">
-                            <p className="costDishes">$ 12.<span>99</span></p>
-                            <button className="addBtn">+</button>
-                        </div>
-                    </div>
+            <div className="top-side-card-dishes">
+                <img src="/Food Image.png" alt={dish.name} />
+            </div>
+
+            <div className="bottom-side-card-dishes">
+                <p className="yellowTextDishes">Popular</p>
+
+                <p className="nameDishes">{dish.name}</p>
+
+                <p className="timeTextDishes">
+                    {dish.delivery_time} min
+                </p>
+
+                <div className="inner-bottom-side-dishes">
+                    <p className="costDishes">
+                        $ {priceInteger}
+                        <span>.{priceDecimal}</span>
+                    </p>
+
+                    <button className="addBtn">+</button>
                 </div>
+            </div>
+        </div>
     )
 }

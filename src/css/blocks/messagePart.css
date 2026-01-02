@@ -4,6 +4,7 @@
   margin-bottom: 100px;
   position: relative;
   /* для позиционирования если нужно */
+  
 }
 
 /* Основной контейнер для скролла */
@@ -32,6 +33,10 @@
   /* Скрываем скроллбар если не нужен */
   scrollbar-width: thin;
   /* для Firefox */
+/* ::-webkit-scrollbar{
+    background-color: red;
+  } */
+  
 }
 
 /* Фиксируем размер карточки */

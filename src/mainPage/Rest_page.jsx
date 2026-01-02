@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import '../css/blocks/rest_page.css'
 import RestaurantCard from './RestaurantsCard'
 import '../css/blocks/dishesPart.css'
@@ -8,14 +8,21 @@ import ControlPartDashBoard from './ControlPartDashBoard'
 
 
 export default function RestPage() {
-	const dishesData = [
-		{
-			yellowTextDishes: 'Trending',
-			nameDishes: 'Swe Dish',
-			timeTextDishes: 12,
-			costDishes: 999.999,
-		},
-	]
+	const [dishes, setDishes] = useState([]);
+	useEffect(() => {
+		fetch("http://127.0.0.1:8000/dishes")
+			.then(res => res.json())
+			.then(data => {
+				console.log("DATA FROM BACKEND:", data)
+
+				let onlyTen = data.slice(0,6)
+
+				setDishes(onlyTen)
+
+
+			})
+			.catch(err => console.error("Ошибка fetch:", err));
+	}, []);
 
 	return (
 		<>
@@ -36,11 +43,12 @@ export default function RestPage() {
 						Our Top <span>Dishes</span>
 					</h1>
 					<div className='DishesCards'>
-						<DishesCard />
-						<DishesCard />
-						<DishesCard />
-						<DishesCard />
-						<DishesCard />
+						{dishes.map((dish, index) => (
+							<DishesCard
+								key={index}
+								dish={dish}
+							/>
+						))}
 					</div>
 					<div className='bottom-side-view'>
 						<p className='viewBtn'>View All →</p>
