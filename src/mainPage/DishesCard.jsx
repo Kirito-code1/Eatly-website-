@@ -3,7 +3,6 @@ import '../css/blocks/dishesCard.css';
 
 export default function DishesCard({ dish }) {
     // корректный вывод цены
-    const priceInteger = Math.floor(dish.price);
     const priceDecimal = dish.price
         .toFixed(2)
         .split('.')[1];
@@ -25,7 +24,7 @@ export default function DishesCard({ dish }) {
 
                 <div className="inner-bottom-side-dishes">
                     <p className="costDishes">
-                        $ {priceInteger}
+                        $ {dish.price}
                         <span>.{priceDecimal}</span>
                     </p>
 
