@@ -1,48 +1,51 @@
-import {React, useState} from "react";
-import '../css/blocks/main_page.css';
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import React from 'react'
+import '../css/blocks/main_page.css'
 
-export default function MainPage(){
-    return(
-        <>
-        <div className="container">
-            {/* <a href="#" className="circle-a">
-                
-            </a> */}
-            <section className="main-page">
-                <Navbar/>
-                <section className="content-main">
-                    <div className="left-side-content" data-aos = 'fade-right'>
-                        <p className="over-text">─────── OVER 1000 USERS</p>
-                        <p className="header-enjoy-text">
-                            Enjoy Foods <span className="none">All</span> <br/> Over <span className="none">The</span> <span>World</span>
-                        </p>
-                        <p className="eatly-text">
-                            EatLy help you set saving goals, earn cash back offers, Go to disclaimer for more details and get paychecks up to two days early. Get <span>a $20 bonus.</span>
-                        </p>
-                        <div className="buttons-main">
-                            <button className="getBtn">Get Started</button>
-                            <button className="goBtn">Go Pro</button>
-                        </div>
-                        <div className="rate-main">
-                            <img className="img-main" src="./public/trustpilot-1 1.svg" alt="" />
-                            <div className="stars-img">
-                                <img src="./public/Icon.svg" alt="" />
-                            <img src="./public/Icon.svg" alt="" />
-                            <img src="./public/Icon.svg" alt="" />
-                            <img src="./public/Icon.svg" alt="" />
-                            <img src="./public/Icon.svg" alt="" />
-                            </div>
-                            <p>4900+</p>
-                        </div>
-                    </div>
-                    <div className="right-side-content" data-aos = 'fade-left'>
-                        <img src="./public/Hero.svg" alt="" />
-                    </div>
-                </section>
-            </section>
-        </div>
-        </>
-    );
+export default function MainPage({ onRegisterClick }) {
+	return (
+		<div className='container'>
+			<section className='main-page'>
+
+				<section className='content-main'>
+					<div className='left-side-content' data-aos='fade-right'>
+						<p className='over-text'>─────── OVER 1000 USERS</p>
+
+						<p className='header-enjoy-text'>
+							Enjoy Foods <span className='none'>All</span> <br />
+							Over <span className='none'>The</span> <span>World</span>
+						</p>
+
+						<p className='eatly-text'>
+							EatLy help you set saving goals, earn cash back offers, Go to
+							disclaimer for more details and get paychecks up to two days
+							early. Get <span>a $20 bonus.</span>
+						</p>
+
+						<div className='buttons-main'>
+							<button className='getBtn' onClick={onRegisterClick}>
+								Get Started
+							</button>
+							<button className='goBtn'>Go Pro</button>
+						</div>
+
+						<div className='rate-main'>
+							<img src='./public/trustpilot-1 1.svg' alt='' />
+							<div className='stars-img'>
+								<img src='./public/Icon.svg' alt='' />
+								<img src='./public/Icon.svg' alt='' />
+								<img src='./public/Icon.svg' alt='' />
+								<img src='./public/Icon.svg' alt='' />
+								<img src='./public/Icon.svg' alt='' />
+							</div>
+							<p>4900+</p>
+						</div>
+					</div>
+
+					<div className='right-side-content' data-aos='fade-left'>
+						<img src='./public/Hero.svg' alt='' />
+					</div>
+				</section>
+			</section>
+		</div>
+	)
 }
