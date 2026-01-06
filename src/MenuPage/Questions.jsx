@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/block/questions.css'
-import QuestionItem from './QuestionItem'
+import QuestionItem from './QuestionItem.jsx'
 
 export default function Questions() {
 	return (

@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/blocks/rest_page.css'
 import '../css/blocks/messagePart.css'
-import MessagesCard from "./MessageCard";
+import MessagesCard from "./MessageCard.jsx";
 
 export default function MessagePart(){
 

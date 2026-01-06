@@ -1,7 +1,7 @@
 import {React, useState} from "react";
 import '../css/blocks/main_page.css';
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.jsx";
 
 export default function MainPage(){
     return(

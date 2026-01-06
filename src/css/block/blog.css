@@ -435,7 +435,7 @@
     height: 335px;
     margin-top: 60px;
 
-    background-image: url("/public/Pic.svg");
+    background-image: url("/frontend/public/Pic.svg");
     background-size: cover;
     background-position: center;
   }

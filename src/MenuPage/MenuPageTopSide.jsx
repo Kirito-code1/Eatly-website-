@@ -1,8 +1,8 @@
-import Navbar from "../mainPage/Navbar"
+import Navbar from "../mainPage/Navbar.jsx"
 import '../css/blocks/topSideSite.css'
-import FoodCategory from "./FoodCategory"
+import FoodCategory from "./FoodCategory.jsx"
 import React from "react"
-import RestaurantCard from "../mainPage/RestaurantsCard"
+import RestaurantCard from "../mainPage/RestaurantsCard.jsx"
 export default function MenuPageTopSide(){
     return(
         <div className="container">

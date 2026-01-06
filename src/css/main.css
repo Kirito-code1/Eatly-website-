@@ -1,6 +1,6 @@
 /*Base*/
-@import './base/base.css';
-@import './base/reset.css';
+@import 'base/base.css';
+@import 'base/reset.css';
 
 
 /*Fonts*/
@@ -10,7 +10,7 @@
 
 
 /*Blocks*/
-@import './blocks/main_page.css';
-@import './block/advert_page.css';
-@import './blocks/rest_page.css';
+@import 'blocks/main_page.css';
+@import 'block/advert_page.css';
+@import 'blocks/rest_page.css';
 

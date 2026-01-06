@@ -1,5 +1,5 @@
 import React from 'react'
-import DishesCard from '../mainPage/DishesCard'
+import DishesCard from '../mainPage/DishesCard.jsx'
 import '../css/blocks/dishesPart.css'
 import { useState, useEffect } from 'react';
 

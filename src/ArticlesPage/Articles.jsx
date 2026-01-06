@@ -1,9 +1,9 @@
-import Navbar from "../mainPage/Navbar";
-import Promo from "../mainPage/Promo";
+import Navbar from "../mainPage/Navbar.jsx";
+import Promo from "../mainPage/Promo.jsx";
 import '../css/blocks/articles-section.css';
-import Article from "./Article";
-import Questions from "../MenuPage/Questions";
-import Footer from "../mainPage/individualFooter";
+import Article from "./Article.jsx";
+import Questions from "../MenuPage/Questions.jsx";
+import Footer from "../mainPage/individualFooter.jsx";
 import { Link } from "react-router-dom";
 export default function ArticlesPage() {
     return(

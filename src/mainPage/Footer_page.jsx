@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/block/footer_page.css'
-import Footer from "./individualFooter";
-import Promo from "./Promo";
+import Footer from "./individualFooter.jsx";
+import Promo from "./Promo.jsx";
 
 export default function FooterPage() {
 	return (

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import Footer from '../mainPage/individualFooter'
-import MessagePart from '../mainPage/MessagePart'
-import ControlPartDashBoard from '../mainPage/ControlPartDashBoard';
-import Navbar from '../mainPage/Navbar';
-import Pricing from './Pricing';
+import Footer from '../mainPage/individualFooter.jsx'
+import MessagePart from '../mainPage/MessagePart.jsx'
+import ControlPartDashBoard from '../mainPage/ControlPartDashBoard.jsx';
+import Navbar from '../mainPage/Navbar.jsx';
+import Pricing from './Pricing.jsx';
 export default function PricingPageWebsite() {
 	return (
 		<>

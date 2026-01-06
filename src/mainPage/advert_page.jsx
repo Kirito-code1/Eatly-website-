@@ -48,7 +48,7 @@ export default function AdvertPage() {
    <section className='app'>
     <div data-aos = 'fade-right'>
       <div className='app__image'>
-     <img src="/public/Mobile Screen.svg" alt="phone" />
+     <img src="/Mobile%20Screen.svg" alt="phone" />
     </div>
     </div>
 

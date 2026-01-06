@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import Footer from '../mainPage/individualFooter'
-import Support from './Support'
-import Navbar from '../mainPage/Navbar';
+import Footer from '../mainPage/individualFooter.jsx'
+import Support from './Support.jsx'
+import Navbar from '../mainPage/Navbar.jsx';
 export default function ContactPageWebsite() {
   return (
         <>

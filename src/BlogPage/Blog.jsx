@@ -1,5 +1,5 @@
 import '../css/block/blog.css'
-import Article from '../ArticlesPage/Article'
+import Article from '../ArticlesPage/Article.jsx'
 
 export default function Blog() {
 	return (
@@ -11,7 +11,7 @@ export default function Blog() {
 					<div className='bloguser'>
 						<img
 							className='bloguser-avatar'
-							src='/public/Ellipse 28.svg'
+							src='/Ellipse%2028.svg'
 							alt='User avatar'
 						/>
 						<div className='bloguser-name'>
@@ -20,7 +20,7 @@ export default function Blog() {
 						</div>
 					</div>
 
-					<img className='blogphoto' src='/public/Pic.svg' alt='blog cover' />
+					<img className='blogphoto' src='/Pic.svg' alt='blog cover' />
 				</section>
 				<section className='details'>
 					<section className='descriptions'>
@@ -66,7 +66,7 @@ export default function Blog() {
 
 						<button className='next-article'>
 							Next Article
-							<img src='/public/arrow-right.svg' alt='arrow' />
+							<img src='/arrow-right.svg' alt='arrow' />
 						</button>
 					</section>
 					<section className='toparticles'>
