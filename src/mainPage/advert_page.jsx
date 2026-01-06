@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/block/advert_page.css'
+import '../css/blocks/advert_page.css'
 
 export default function AdvertPage() {
  return (
@@ -72,7 +72,7 @@ export default function AdvertPage() {
       </li>
      </ul>
         <img src="./public/Vector 14.svg" alt=""  className='vector14'/>
-     <button className='app__btn'>Download <img src="./public/arrow-right.svg" alt="" /></button>
+     <button className='app__btn'>Download <img src="/arrow-right.svg" alt="" /></button>
     </div>
     </div>
    </section>

@@ -1,4 +1,4 @@
-import '../css/block/blog.css'
+import '../css/blocks/blog.css'
 import Article from '../ArticlesPage/Article.jsx'
 
 export default function Blog() {

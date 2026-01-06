@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/block/footer_page.css'
+import '../css/blocks/footer_page.css'
 import Footer from "./individualFooter.jsx";
 import Promo from "./Promo.jsx";
 
