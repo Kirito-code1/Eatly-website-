@@ -1,16 +1,20 @@
-import MainPage from "./Main_page.jsx";
-import AdvertPage from "./advert_page.jsx";
-import RestPage from "./Rest_page.jsx";
-import MessagePart from "./MessagePart.jsx";
-import FooterPage from "./Footer_page.jsx";
-export default function MainPageWebsite(){
-    return(
-        <>
-        <MainPage/>
-        <AdvertPage/>
-        <RestPage/>
-        <MessagePart/>
-        <FooterPage/>
-        </>
-    )
+import { useState } from 'react'
+
+import MainPage from './Main_page'
+import AdvertPage from './advert_page'
+import RestPage from './Rest_page'
+import MessagePart from './MessagePart'
+import FooterPage from './Footer_page'
+
+export default function MainPageWebsite() {
+	return (
+		<>
+			<MainPage />
+			<AdvertPage />
+			<RestPage />
+			<MessagePart />
+			<FooterPage />
+		</>
+	)
 }
+
