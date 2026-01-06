@@ -39,7 +39,7 @@ export default function Navbar() {
 							<Link to='/menu' onClick={() => setIsMenuOpen(false)}>
 								Menu
 							</Link>
-							<Link to='/blog' onClick={() => setIsMenuOpen(false)}>
+							<Link to='/articles' onClick={() => setIsMenuOpen(false)}>
 								Blog
 							</Link>
 							<Link to='/pricing' onClick={() => setIsMenuOpen(false)}>

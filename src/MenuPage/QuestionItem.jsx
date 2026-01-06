@@ -1,5 +1,5 @@
 import React from 'react'
-  import '../css/block/questionItem.css'
+  import '../css/blocks/questionItem.css'
 
 
 export default function QuestionItem({ text }) {

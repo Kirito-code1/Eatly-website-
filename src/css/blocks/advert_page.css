@@ -51,7 +51,7 @@
   left: 0;
   width: 1024.2508922832858px;
   height: 100%;
-  background-image: url('../../image/Vector 7.svg');
+  background-image: url('/Vector 7.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -63,7 +63,7 @@
   left: 0;
   width: 947.9342390768563px;
   height: 100%;
-  background-image: url('../../image/Vector 4.svg');
+  background-image: url('/Vector 4.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -79,7 +79,7 @@
   right: 0;
   width: 247.65px;
   height: 392.97px;
-  background-image: url('../../image/Vector 6.svg');
+  background-image: url('/Vector 6.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -166,11 +166,6 @@
   width: 186px;
   height: 63px;
   gap: 10px;
-/* 
-  background-image: url('./public/arrow-right.svg');
-  background-repeat: no-repeat;
-  background-position: right 40px center;
-  background-size: 18px; */
 }
 .app__btn img{
   width: 27px;

@@ -1,4 +1,4 @@
-import '../css/block/support.css'
+import '../css/blocks/support.css'
 
 export default function Support() {
 	return (
