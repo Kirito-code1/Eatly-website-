@@ -12,7 +12,11 @@ export default function MenuPageTopSide(){
                     <div className="block-procent">
                         <p className="procentText">50% OFF</p>
                         <p className="textWeekend">WEEKEND</p>
-                        <img src="./public/Food Image (2).png" alt="" className="imgPosition" />
+                        <img
+                            src='/images/Food Image (2).png'
+                            alt=""
+                            className="imgPosition"
+                        />
                     </div>
                     <div className="block-search">
                         <input type="text" placeholder="Search" />

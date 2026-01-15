@@ -49,7 +49,7 @@ export default function AdvertPage() {
     <div data-aos = 'fade-right'>
       <div className='app__image'>
        <img
-           src={new URL("/Mobile Screen.svg", import.meta.url).href}
+           src='/images/Mobile Screen.svg'
            alt="phone"
        />
     </div>
@@ -75,12 +75,14 @@ export default function AdvertPage() {
       </li>
      </ul>
        <img
-           src={new URL("/Vector 14.svg", import.meta.url).href}
+           src='/images/Vector 14.svg'
            alt=""
            className='vector14'
        />
+       />
+
        <button className='app__btn'>
-        Download <img src={new URL("/arrow-right.svg", import.meta.url).href} alt="" />
+        Download <img src='/images/arrow-right.svg' alt="" />
        </button>
     </div>
     </div>

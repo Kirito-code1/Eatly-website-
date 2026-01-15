@@ -6,8 +6,8 @@ export default function Pricing() {
                 <div className="wrapper-pricing">
                     <div className="block-pricing">
                 <p className="picing-text">Our Pricing</p>
-                <img src="./public/pricing.png" alt="" className='img-pricing'/>
-                </div>
+                        <img src='/images/pricing.png' alt="" className='img-pricing' />
+                    </div>
                 </div>
                 <div className="price-type">
                     <div className="cards1">

@@ -29,14 +29,14 @@ export default function ControlPartDashBoard() {
 						<div className='bottom-side-dashboard'>
 							<div className='card-expense'>
 								<div className='left-side-dash'>
-									<img src={new URL("/icon.png", import.meta.url).href} alt="" />
+									<img src='/images/icon.png' alt="" />
 									<p className='nameCard'>Expense</p>
 								</div>
 								<p className='costCard'>$409.00</p>
 							</div>
 							<div className='card-expense'>
 								<div className='left-side-dash'>
-									<img src={new URL("/icon (1).png", import.meta.url).href} alt="" />
+									<img src='/images/icon (1).png' alt="" />
 									<p className='nameCard'>Vocher Usage</p>
 								</div>
 								<p className='costCard'>$45.78</p>

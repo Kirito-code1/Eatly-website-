@@ -15,7 +15,7 @@ export default function Promo(){
 					</div>
 
 					<div className='promo__image'>
-						<img src='/Food Image.svg' alt='food' />
+						<img src='/images/Food Image.svg' alt='food' />
 					</div>
 				</section>
     )

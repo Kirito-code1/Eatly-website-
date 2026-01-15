@@ -11,7 +11,7 @@ export default function DishesCard({ dish }) {
         <div className="dishesCard">
             <div className="top-side-card-dishes">
                 <img
-                    src={new URL("/Food Image.png", import.meta.url).href}
+                    src='/images/Food Image.png'
                     alt={dish.name}
                 />
             </div>

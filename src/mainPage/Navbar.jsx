@@ -28,7 +28,7 @@ export default function Navbar() {
 					{/* ЛЕВАЯ ЧАСТЬ */}
 					<div className='left-side-nav'>
 						<Link to='/' className='logo'>
-							<img src='/Logo (1).svg' alt='Logo' />
+							<img src='/images/Logo (1).svg' alt='Logo' />
 						</Link>
 
 						<div
@@ -56,7 +56,7 @@ export default function Navbar() {
 						className='menuBtn'
 						onClick={() => setIsMenuOpen(prev => !prev)}
 					>
-						<img src='/menu (1).svg' alt='' />
+						<img src='/images/menu (1).svg' alt='' />
 					</button>
 
 					{/* ПРАВАЯ ЧАСТЬ */}

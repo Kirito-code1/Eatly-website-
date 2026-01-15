@@ -29,20 +29,20 @@ export default function MainPage({ onRegisterClick }) {
 						</div>
 
 						<div className='rate-main'>
-							<img src='./public/trustpilot-1 1.svg' alt='' />
+							<img src='/images/trustpilot-1 1.svg' alt='' />
 							<div className='stars-img'>
-								<img src='./public/Icon.svg' alt='' />
-								<img src='./public/Icon.svg' alt='' />
-								<img src='./public/Icon.svg' alt='' />
-								<img src='./public/Icon.svg' alt='' />
-								<img src='./public/Icon.svg' alt='' />
+								<img src='/images/Icon.svg' alt='' />
+								<img src='/images/Icon.svg' alt='' />
+								<img src='/images/Icon.svg' alt='' />
+								<img src='/images/Icon.svg' alt='' />
+								<img src='/images/Icon.svg' alt='' />
 							</div>
 							<p>4900+</p>
 						</div>
 					</div>
 
 					<div className='right-side-content' data-aos='fade-left'>
-						<img src='./public/Hero.svg' alt='' />
+						<img src='/images/Hero.svg' alt='' />
 					</div>
 				</section>
 			</section>

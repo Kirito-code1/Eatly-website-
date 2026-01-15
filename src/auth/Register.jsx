@@ -76,7 +76,7 @@ export default function LoginPage() {
 					<Link to='/'>
 						<img
 							className='login__img'
-							src={new URL("/Food Image (1).svg", import.meta.url).href}
+							src='/images/Food Image (1).svg'
 							alt='Food'
 						/>
 						<h2>Find Foods With Love</h2>

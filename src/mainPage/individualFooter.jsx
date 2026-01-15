@@ -6,15 +6,16 @@ export default function Footer(){
 			<section className='footer'>
 					<div className='footer__top'>
 						<div className='footer__company'>
-							<img src={new URL("/Logo (1).svg", import.meta.url).href} alt='company' />
+							<img src='/images/Logo (1).svg' alt='company' />
 						</div>
+
 
 						{/* соцсети для мобилки */}
 						<div className='footer_logos footer_logos--mobile'>
-							<img src={new URL("/Insta.svg", import.meta.url).href} alt='Insta' />
-							<img src={new URL("/in.svg", import.meta.url).href} alt='in' />
-							<img src={new URL("/FaceBook.svg", import.meta.url).href} alt='FaceBook' />
-							<img src={new URL("/Twitter.svg", import.meta.url).href} alt='Twitter' />
+							<img src='/images/Insta.svg' alt='Insta' />
+							<img src='/images/in.svg' alt='in' />
+							<img src='/images/FaceBook.svg' alt='FaceBook' />
+							<img src='/images/Twitter.svg' alt='Twitter' />
 						</div>
 
 						<div className='footer__nav'>
@@ -32,10 +33,10 @@ export default function Footer(){
 
 						{/* соцсети для десктопа */}
 						<div className='footer_logos footer_logos--desktop'>
-							<img src={new URL("/Insta.svg", import.meta.url).href} alt='Insta' />
-							<img src={new URL("/in.svg", import.meta.url).href} alt='in' />
-							<img src={new URL("/FaceBook.svg", import.meta.url).href} alt='FaceBook' />
-							<img src={new URL("/Twitter.svg", import.meta.url).href} alt='Twitter' />
+							<img src='/images/Insta.svg' alt='Insta' />
+							<img src='/images/in.svg' alt='in' />
+							<img src='/images/FaceBook.svg' alt='FaceBook' />
+							<img src='/images/Twitter.svg' alt='Twitter' />
 						</div>
 					</div>
 				</section>

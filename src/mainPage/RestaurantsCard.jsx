@@ -15,8 +15,12 @@ export default function RestaurantCard(){
                         </p>
                         <p className="nameMeal">The Chicken King</p>
                         <div className="inner-bottom-side-card">
-                            <p className="timeText">24 min • <img src="./public/Icon.svg" alt="" /> <span>4.8</span></p>
-                        <button className="addFav"><img src="./public/Book Mark.svg" alt=""/></button>
+                            <p className="timeText">
+                                24 min • <img src='/images/Icon.svg' alt="" /> <span>4.8</span>
+                            </p>
+                            <button className="addFav">
+                                <img src='/images/Book Mark.svg' alt=""/>
+                            </button>
                         </div>
                     </div>
             </div>
