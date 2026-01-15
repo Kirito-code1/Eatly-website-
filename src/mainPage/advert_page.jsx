@@ -79,7 +79,6 @@ export default function AdvertPage() {
            alt=""
            className='vector14'
        />
-       />
 
        <button className='app__btn'>
         Download <img src='/images/arrow-right.svg' alt="" />
