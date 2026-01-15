@@ -48,7 +48,10 @@ export default function AdvertPage() {
    <section className='app'>
     <div data-aos = 'fade-right'>
       <div className='app__image'>
-     <img src="/Mobile%20Screen.svg" alt="phone" />
+       <img
+           src={new URL("/Mobile Screen.svg", import.meta.url).href}
+           alt="phone"
+       />
     </div>
     </div>
 
@@ -71,8 +74,14 @@ export default function AdvertPage() {
        digestion and boosting immunity.
       </li>
      </ul>
-        <img src="./public/Vector 14.svg" alt=""  className='vector14'/>
-     <button className='app__btn'>Download <img src="/arrow-right.svg" alt="" /></button>
+       <img
+           src={new URL("/Vector 14.svg", import.meta.url).href}
+           alt=""
+           className='vector14'
+       />
+       <button className='app__btn'>
+        Download <img src={new URL("/arrow-right.svg", import.meta.url).href} alt="" />
+       </button>
     </div>
     </div>
    </section>

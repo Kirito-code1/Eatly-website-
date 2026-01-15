@@ -74,7 +74,11 @@ export default function LoginPage() {
 				{/* ПРАВАЯ ЧАСТЬ */}
 				<div className='login__right'>
 					<Link to='/'>
-						<img className='login__img' src='/Food Image (1).svg' alt='Food' />
+						<img
+							className='login__img'
+							src={new URL("/Food Image (1).svg", import.meta.url).href}
+							alt='Food'
+						/>
 						<h2>Find Foods With Love</h2>
 						<p>
 							Eatly Is The Food Delivery Dashboard And Having More Than 2k+

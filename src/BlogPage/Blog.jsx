@@ -11,7 +11,7 @@ export default function Blog() {
 					<div className='bloguser'>
 						<img
 							className='bloguser-avatar'
-							src='/Ellipse%2028.svg'
+							src={new URL("/Ellipse 28.svg", import.meta.url).href}
 							alt='User avatar'
 						/>
 						<div className='bloguser-name'>
@@ -20,7 +20,11 @@ export default function Blog() {
 						</div>
 					</div>
 
-					<img className='blogphoto' src='/Pic.svg' alt='blog cover' />
+					<img
+						className='blogphoto'
+						src={new URL("/Pic.svg", import.meta.url).href}
+						alt='blog cover'
+					/>
 				</section>
 				<section className='details'>
 					<section className='descriptions'>
@@ -66,7 +70,11 @@ export default function Blog() {
 
 						<button className='next-article'>
 							Next Article
-							<img src='/arrow-right.svg' alt='arrow' />
+
+							<img
+								src={new URL("/arrow-right.svg", import.meta.url).href}
+								alt='arrow'
+							/>
 						</button>
 					</section>
 					<section className='toparticles'>

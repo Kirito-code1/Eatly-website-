@@ -10,7 +10,10 @@ export default function DishesCard({ dish }) {
     return (
         <div className="dishesCard">
             <div className="top-side-card-dishes">
-                <img src="/Food Image.png" alt={dish.name} />
+                <img
+                    src={new URL("/Food Image.png", import.meta.url).href}
+                    alt={dish.name}
+                />
             </div>
 
             <div className="bottom-side-card-dishes">
