@@ -18,10 +18,10 @@
   flex: 0 0 531px;
   min-height: 818px;
 
-  background: url("/Left.svg") center / cover no-repeat;
-
+  /*background: url("/Left.svg") center / cover no-repeat;*/
+background: url("public/images/Left.svg") center / cover no-repeat;
   color: #f9f9f9;
-  font-family: var(--font-poppins);
+  font-family: var(--font-poppins), serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.05;
@@ -41,7 +41,8 @@
   right: -20%;
   bottom: -10%;
 
-  background: url('/Mobile.svg') center / contain no-repeat;
+  /*background: url('/Mobile.svg') center / contain no-repeat;*/
+  background: url("/public/images/Mobile.svg") center / contain no-repeat;
   pointer-events: none;
 }
 
@@ -79,7 +80,8 @@
   left: -70px;
   bottom: -80px;
 
-  background: url('/Arrow.svg') center / contain no-repeat;
+  /*background: url('/Arrow.svg') center / contain no-repeat;*/
+  background: url("/public/images/Arrow.svg") center / contain no-repeat;
   pointer-events: none;
 }
 
@@ -101,14 +103,14 @@
   border-radius: 16px;
 
   padding: 22px 24px;
-  font-family: var(--font-poppins);
+  font-family: var(--font-poppins), sans-serif;
 }
 
 /* PLACEHOLDER */
 .contact__input::placeholder,
 .contact__textarea::placeholder {
   color: rgba(182, 182, 182, 1);
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -133,7 +135,7 @@
   background: rgba(108, 95, 188, 1);
   color: #f9f9f9;
 
-  font-family: var(--font-poppins);
+  font-family: var(--font-poppins), serif;
   font-size: 20px;
   font-weight: 500;
 
@@ -172,7 +174,8 @@ span {
     right: -20%;
     bottom: -10%;
 
-    background: url('/Mobile.svg') center / contain no-repeat;
+    /*background: url('/Mobile.svg') center / contain no-repeat;*/
+    background: url("/public/images/Mobile.svg") center / contain no-repeat;
     pointer-events: none;
   }
 
@@ -239,7 +242,6 @@ span {
     color: rgba(249, 249, 249, 1);
 
     font-family: Poppins;
-    font-style: SemiBold;
     font-size: 24px;
     font-weight: 600;
     line-height: 120%;
@@ -355,7 +357,8 @@ span {
     width: 80px;
     height: 86px;
 
-    background: url('/Arrow (1).svg') center / contain no-repeat;
+    /*background: url('/Arrow (1).svg') center / contain no-repeat;*/
+    background: url("public/images/Arrow (1).svg") center / contain no-repeat;
     z-index: 10;
     pointer-events: none;
   }
